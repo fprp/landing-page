@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    background-color: rgb(17, 16, 16);
+}
+
+#landinpage-main{
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#secao-esquerda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#secao-direita{
+    background-color: rgb(0, 0, 26);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+
+#imagens-box{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-promocional{
+    max-width:610px;
+    max-height:1570px;
+    width: auto;
+    height: auto;
+}
+
+#subtitulo-promocao{
+    margin-top: 5%;
+    color:rgb(136, 136, 136);
+    font-size: 20.3px;
+}
+
+.black-friday{
+    font-size: 140px;
+    color:rgb(136, 136, 136);
+    line-height: 0.7;
+
+}
+
+#increver-ofertas{
+    font-size: 40px;
+    color:rgb(136, 136, 136);
+    line-height: 0.7;
+    margin-bottom: 5%;
+    margin-left: 2.5%;
+    margin-top: 4.5%;
+}
+
+.lbcor{
+    font-size: 50px;
+    color:rgb(136, 136, 136);
+}
+
+.formulario{
+    margin-left: 2.5%;
+
+}
+
+#nome{
+    width: 95%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    box-shadow: none;
+    outline: none;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#email{
+    width: 95%;
+    font-size: 30px;
+    margin-bottom: 5%;
+    box-shadow: none;
+    outline: none;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#submit{
+    width: 95%;
+    cursor: pointer;
+    font-size: 50px;
+    background-color: rgb(17, 16, 16);
+    color: rgb(136, 136, 136);
+    border-style: groove;
+    border-color: black;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    width: 95%;
+    cursor: pointer;
+    font-size: 50px;
+    background-color: rgb(49, 0, 0);
+    color: rgb(136, 136, 136);
+    border-style: groove;
+    border-color: black;
+    border-radius: 20px;
+}
+
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#direitos{
+    text-align: center;
+    color:rgb(136, 136, 136);
+    font-size: 17.4px;
+}
+#icones{
+    margin-right: 1%;
+}
+#icon-linkedin{
+    width: 30px;
+    height: 30px;
+
+}
+
+#icon-github{
+    width: 30px;
+    height: 30px;
+}
