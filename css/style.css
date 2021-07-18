@@ -111,14 +111,7 @@ body, html{
 }
 
 #submit:hover{
-    width: 95%;
-    cursor: pointer;
-    font-size: 50px;
     background-color: rgb(49, 0, 0);
-    color: rgb(136, 136, 136);
-    border-style: groove;
-    border-color: black;
-    border-radius: 20px;
 }
 
 #rodape{
